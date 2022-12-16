@@ -9,7 +9,7 @@ class PclAT1121 < Formula
 
   depends_on "cmake" => [:build, :test]
   depends_on "pkg-config" => [:build, :test]
-  depends_on "boost"
+  depends_on "boost@1.79"
   depends_on "cminpack"
   depends_on "eigen"
   depends_on "flann"
