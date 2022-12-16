@@ -18,7 +18,7 @@ class PclAT1121 < Formula
   depends_on "libusb"
   depends_on "qhull"
   depends_on "qt@5"
-  depends_on "vtk"
+  depends_on "vtk@9.1"
 
   on_macos do
     depends_on "libomp"
